@@ -1,0 +1,62 @@
+.screem{
+    width:300px;
+    height:300px;
+    border: 1px solid rgb(144, 148, 148);
+    display: flex;
+    flex-wrap: wrap;
+}
+.pixel{
+    width:12px;
+    height: 12px;
+    border-radius: 3px;
+    
+}
+.food{
+  background-color: red;
+  width: 12px;
+  height: 12px;
+
+}
+.joystick{
+    border:none;
+    border-radius: 4px;
+    padding: 7px 12px;
+    color: #fafafa;
+    background-color:rgba(226, 46, 46, 0.89);
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    width: 70px;
+    height: 40px;
+    margin: 0 5px 12px 5px;
+    cursor: pointer;
+}
+
+.joystick-box{
+    margin-top: 12px;
+    padding:7px;
+    background-color: rgb(6, 9, 22);
+    width: 300px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.top-bottom{
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.795);
+    justify-content: center;
+    flex-direction: column;
+    left:40%;
+    position: relative;
+    top: -3%;
+    z-index: 1000;
+
+   }
+   
+   .right-left{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.795);
+    justify-content: space-between;
+    position: relative;
+    top: -90%;
+   }
